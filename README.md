@@ -1,13 +1,15 @@
 # server_rack
 
-debug options:
+Debug options:
 
-service dnsmasq start
-service dnsmasq stop
-service dnsmasq status
+- service dnsmasq start
+
+- service dnsmasq stop
+
+- service dnsmasq status
 
 ----------------------
 
-netstat -nltup
+- netstat -nltup
 
-cat /etc/lighttpd/lighttpd.conf
+- cat /etc/lighttpd/lighttpd.conf
