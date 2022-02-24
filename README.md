@@ -13,3 +13,10 @@ Debug options:
 - netstat -nltup
 
 - cat /etc/lighttpd/lighttpd.conf
+
+-  /etc/pihole/local.list.
+
+
+Pihole containerbe:
+
+- pihole -r
